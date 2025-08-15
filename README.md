@@ -27,7 +27,8 @@
 
 ## ⚙️ 配置说明
 
-### 1. 安装依赖
+### 1. 安装依赖&&运行
 
 ```bash
 pip install requests
+nohup python3 monitor_domain.py > /var/log/monitor_domain.log 2>&1 &
